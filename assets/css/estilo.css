@@ -1,0 +1,46 @@
+.row {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column: 1/4;
+    row-gap: 30px;
+
+}
+
+.posteo {
+    grid-column: 4/9;
+    box-shadow: 0px 3px 8px rgb(199, 199, 199);
+    padding: 10px;
+    font-family: arial;
+}
+
+.indices {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.indices a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+.in {
+
+    padding: 12px;
+    background-color: rgb(172, 172, 172);
+    border: none;
+    color: rgb(255, 255, 255);
+    transition: 1s;
+
+}
+
+
+.in:hover {
+
+    background-color: rgb(109, 109, 109);
+
+
+}
